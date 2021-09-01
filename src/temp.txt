@@ -1,0 +1,30 @@
+      <div className="App">
+
+      <header className="App-header">
+        <StyledButton/>
+        <TextField
+          variant="outlined"
+          color='secondary'
+          type='email'
+          label=" The email"
+          placeholder="test@test.com"
+        />
+        <CheckboxExample />
+        <ButtonGroup variant="contained" color="primary">
+          <Button
+            startIcon={<SaveIcon />}
+          >
+            Save
+          </Button>
+          <Button
+            startIcon={<DeleteIcon />}
+          >
+            Discard
+          </Button>
+        </ButtonGroup>
+
+        <img src={logo} className="App-logo" alt="logo" />
+
+
+      </header>
+    </div>
